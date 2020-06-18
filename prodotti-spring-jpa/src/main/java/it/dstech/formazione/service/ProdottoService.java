@@ -35,8 +35,5 @@ public class ProdottoService {
 		repo.deleteById(id);
 	}
 
-	public List<Prodotto> search(String keyword) {
-		return repo.search(keyword);
-	}
 
 }

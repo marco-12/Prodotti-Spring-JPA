@@ -58,13 +58,5 @@ public class ProdottoController {
 		return "redirect:/";		
 	}
 	
-	@RequestMapping("/cerca")
-	public ModelAndView cerca(@RequestParam String parola) {
-		List<Prodotto> risultato = prodottoService.search(parola);
-		ModelAndView mav = new ModelAndView("cerca_prodotto");
-		mav.addObject("risultato", risultato);
-		
-		return mav;		
-	}	
 
 }

@@ -26,7 +26,7 @@
 					<td><form:input path="categoria" /></td>
 				</tr>		
 				<tr>
-					<td colspan="2"><input type="submit" value="Salva"></td>
+					<td align="center" colspan="2"><input type="submit" value="Salva"></td>
 				</tr>						
 			</table>
 		</form:form>
